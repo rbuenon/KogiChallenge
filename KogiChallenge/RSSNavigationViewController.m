@@ -19,8 +19,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        self.title = @"RSS";
+        self.tabBarItem.image = [UIImage imageNamed:@"Circle-Info"];
     }
     return self;
 }

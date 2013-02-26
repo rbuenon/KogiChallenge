@@ -40,6 +40,12 @@
 		C3414B8B16DC317C009E8295 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C3414B8116DC317C009E8295 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C3414B9116DC318A009E8295 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C3414B8E16DC318A009E8295 /* RSSItem.m */; };
 		C3414B9216DC318A009E8295 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3414B9016DC318A009E8295 /* RSSParser.m */; };
+		C3414B9816DC4589009E8295 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3414B9716DC4589009E8295 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C3414B9A16DC463A009E8295 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3414B9916DC463A009E8295 /* QuartzCore.framework */; };
+		C3414BA416DC46C4009E8295 /* yellowimportantsign.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3414B9F16DC46C4009E8295 /* yellowimportantsign.jpeg */; };
+		C3414BA716DC5630009E8295 /* ImagesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C3414BA616DC5630009E8295 /* ImagesObject.m */; };
+		C3414BAA16DC6023009E8295 /* Circle-Info.png in Resources */ = {isa = PBXBuildFile; fileRef = C3414BA816DC6023009E8295 /* Circle-Info.png */; };
+		C3414BAB16DC6023009E8295 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = C3414BA916DC6023009E8295 /* User.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +103,14 @@
 		C3414B8E16DC318A009E8295 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 		C3414B8F16DC318A009E8295 /* RSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParser.h; sourceTree = "<group>"; };
 		C3414B9016DC318A009E8295 /* RSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParser.m; sourceTree = "<group>"; };
+		C3414B9616DC4589009E8295 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		C3414B9716DC4589009E8295 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		C3414B9916DC463A009E8295 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3414B9F16DC46C4009E8295 /* yellowimportantsign.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowimportantsign.jpeg; sourceTree = "<group>"; };
+		C3414BA516DC5630009E8295 /* ImagesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesObject.h; sourceTree = "<group>"; };
+		C3414BA616DC5630009E8295 /* ImagesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesObject.m; sourceTree = "<group>"; };
+		C3414BA816DC6023009E8295 /* Circle-Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-Info.png"; sourceTree = "<group>"; };
+		C3414BA916DC6023009E8295 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3414B9A16DC463A009E8295 /* QuartzCore.framework in Frameworks */,
 				C324DC5716DC292200F53E85 /* UIKit.framework in Frameworks */,
 				C324DC5916DC292200F53E85 /* Foundation.framework in Frameworks */,
 				C324DC5B16DC292200F53E85 /* CoreGraphics.framework in Frameworks */,
@@ -116,6 +131,7 @@
 		C324DC4A16DC292200F53E85 = {
 			isa = PBXGroup;
 			children = (
+				C3414B9916DC463A009E8295 /* QuartzCore.framework */,
 				C324DC5C16DC292200F53E85 /* KogiChallenge */,
 				C324DC5516DC292200F53E85 /* Frameworks */,
 				C324DC5416DC292200F53E85 /* Products */,
@@ -133,6 +149,7 @@
 		C324DC5516DC292200F53E85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3414B9516DC4589009E8295 /* iCarousel */,
 				C3414B6C16DC317C009E8295 /* AFNetworking */,
 				C3414B8C16DC318A009E8295 /* RSSParser */,
 				C324DC5616DC292200F53E85 /* UIKit.framework */,
@@ -157,6 +174,9 @@
 		C324DC5D16DC292200F53E85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3414BA816DC6023009E8295 /* Circle-Info.png */,
+				C3414BA916DC6023009E8295 /* User.png */,
+				C3414B9F16DC46C4009E8295 /* yellowimportantsign.jpeg */,
 				C324DC7116DC292200F53E85 /* first.png */,
 				C324DC7316DC292200F53E85 /* first@2x.png */,
 				C324DC7816DC292200F53E85 /* second.png */,
@@ -235,8 +255,19 @@
 				C324DC7516DC292200F53E85 /* CarouselViewController.h */,
 				C324DC7616DC292200F53E85 /* CarouselViewController.m */,
 				C324DC7F16DC292200F53E85 /* CarouselViewController.xib */,
+				C3414BA516DC5630009E8295 /* ImagesObject.h */,
+				C3414BA616DC5630009E8295 /* ImagesObject.m */,
 			);
 			name = Challenge2;
+			sourceTree = "<group>";
+		};
+		C3414B9516DC4589009E8295 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				C3414B9616DC4589009E8295 /* iCarousel.h */,
+				C3414B9716DC4589009E8295 /* iCarousel.m */,
+			);
+			path = iCarousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +333,9 @@
 				C324DC8116DC292200F53E85 /* CarouselViewController.xib in Resources */,
 				C324DC8B16DC29BF00F53E85 /* RSSNavigationViewController.xib in Resources */,
 				C3414B6B16DC302C009E8295 /* WebViewController.xib in Resources */,
+				C3414BA416DC46C4009E8295 /* yellowimportantsign.jpeg in Resources */,
+				C3414BAA16DC6023009E8295 /* Circle-Info.png in Resources */,
+				C3414BAB16DC6023009E8295 /* User.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +364,8 @@
 				C3414B8B16DC317C009E8295 /* UIImageView+AFNetworking.m in Sources */,
 				C3414B9116DC318A009E8295 /* RSSItem.m in Sources */,
 				C3414B9216DC318A009E8295 /* RSSParser.m in Sources */,
+				C3414B9816DC4589009E8295 /* iCarousel.m in Sources */,
+				C3414BA716DC5630009E8295 /* ImagesObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

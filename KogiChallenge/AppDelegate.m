@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 
-//#import "FirstViewController.h"
-
 #import "RSSNavigationViewController.h"
 #import "CarouselViewController.h"
 
@@ -21,10 +19,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-   // UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
     
     UINavigationController *viewController1 = [[RSSNavigationViewController alloc] initWithNibName:@"RSSNavigationViewController" bundle:nil];
-    UIViewController *viewController2 = [[CarouselViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    UIViewController *viewController2 = [[CarouselViewController alloc] initWithNibName:@"CarouselViewController" bundle:nil];
     
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
